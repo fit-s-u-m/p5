@@ -27,7 +27,7 @@
 .container{
   display:grid;
   grid-template-columns:1fr 3fr;
-  background-color:rgba(0,0,0,0.5);
+  background-color:rgba(0,0,0,0.1);
 }
 
 #defaultCanvas0{
@@ -35,7 +35,7 @@
 }
 
 #button_container{
-  background-color:rgba(10,20,20,0.6);
+  background-color:rgba(10,20,20);
   display: inline-block;
 }
 .main{
@@ -82,8 +82,11 @@ html body{
   margin: 0px;
   height: 100%;
 	width : 100%;
-  background-image: url(./wp8950669-math-minimalist-wallpapers.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+	background-color: #d7c6b0;
+
+  /* background-image: url(./wp8950669-math-minimalist-wallpapers.jpg); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+
 	overflow-x: hidden;
 }

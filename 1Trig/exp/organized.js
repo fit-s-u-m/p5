@@ -1,4 +1,4 @@
-const angInc = 0.001 // its the rate it increases its angle every frame rate
+const angInc = -0.01 // its the rate it increases its angle every frame rate
 
 let angle =0
 
@@ -174,7 +174,7 @@ function windowResized () { // is called when the window is resized
 const showCircle = radius =>{
 	noFill()
 	strokeWeight(2.5) // sets the thickness
-	stroke(255,200)
+	stroke(2)
 	smooth()
 	ellipse(0,0,2*radius)
 	stroke("blue")
@@ -237,7 +237,7 @@ const makeCircle = (x, y, radius) =>{
 	isquareButtonOn  = false
 	ballsButtonIsOn = false
 
-	stroke(180)
+	stroke(0)
 	strokeWeight(2)
 	let slope = -y/x
 	let theta = atan(slope)
@@ -269,7 +269,7 @@ const makeCircle = (x, y, radius) =>{
 
   
 	beginShape()
-		stroke("white")
+		stroke("purple")
 		noFill()
 		for(let i=0;i<nextX.length;i++){
 			push()
@@ -317,7 +317,7 @@ const showMidPoint = (x, y, xs, ys, radius) => {
 	styleWhenButtonOn("#midPointButton")
 }
 const showBalls =(radius,angle,num,ballRadius)=> {
-	stroke("white")
+	stroke("black")
 	strokeWeight(1)
 	noFill()
 	ellipse(0,0,radius*2)
