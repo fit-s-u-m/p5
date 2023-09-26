@@ -1,0 +1,89 @@
+:root{
+  --light-blue:rgb(112, 248, 186);
+  --mid-gray:rgb(8, 76, 97);
+  --carrot:rgb(234, 144, 16);
+	--transparent:rgba(0,0,0,0);
+	--dark:rgb(0,0,0);
+}
+.mybutton{
+  background-color: var(--transparent);
+	color: var(--carrot);
+  display:flex;
+  margin:10px;
+  padding:10px 20px;
+  font-size: 14px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  transition: background-color 0.15s;
+  transition: color 0.15s; 
+  border-radius:8px;
+  text-transform: uppercase;
+}
+.mybutton:hover{
+  box-shadow: 1px 3px 10px;
+}
+.mybutton:active{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+  display:grid;
+  grid-template-columns:1fr 3fr;
+  background-color:rgba(0,0,0,0.5);
+}
+
+#defaultCanvas0{
+  margin :10px;
+}
+
+#button_container{
+  background-color:rgba(10,20,20,0.55);
+  display: inline-block;
+}
+.main{
+  display:block;
+  width:100%;
+  height:100%;
+  background-color:rgba(255,255,255,0.01)
+}
+p{
+  font-size:3ch;
+  color:var(--carrot);
+  font-family: Georgia;
+ }
+#discription{
+	font-size: 16px;
+  font-family: Firacode;
+	color: white;
+}
+#discription em{
+	color: cyan;
+}
+ .t1{
+  color:rgb(255,255,255);
+  font-size:3ch;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+ }
+#can-container{
+  height: 100%;
+  display:grid;
+ }
+#colorPicker{
+	margin: 10px;
+	background-color:var(--transparent);
+	border-radius: 5px;
+}
+#input{
+	padding: 0px;
+  background-color: var(--transparent);
+	color: var(--carrot);
+	font-size: 30;
+}
+html body{
+  margin: 0px;
+  height: 100%;
+	width : 100%;
+  background-image: url(./wp8950669-math-minimalist-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+	overflow-x: hidden;
+}

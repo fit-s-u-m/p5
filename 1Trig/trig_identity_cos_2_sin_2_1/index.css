@@ -1,0 +1,66 @@
+:root{
+  --light-blue:rgb(112, 248, 186);
+  --dark:rgb(30, 16, 20);
+  --silent:rgb(124, 180, 184);
+  --purple:rgb(202, 60, 255);
+  --mid-gray:rgb(8, 76, 97);
+  --carrot:rgb(234, 144, 16);
+  --blue:rgb(0, 79, 255);
+  --red:rgb(255, 32, 110);
+}
+.mybutton{
+  background-color: var(--lightBlue);
+  width:clamp(10ch 20ch + 1vh  30ch);
+  display:block;
+  margin:10px ;
+  padding:10px;
+  font-size: 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold; 
+  transition: box-shadow 150ms ease-in-out;
+  border-radius:8px;
+  position:relative;
+}
+.mybutton:hover{
+   box-shadow: 1px 3px 30px;
+
+}
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  color:var(--purple);
+  font-size: clamp(3rem 10vw 5rem);
+}
+#defaultCanvas0{
+  border:var(--dark) double 10px;
+  border-radius:30px;
+  position:relative;
+  /* justify-self: center; */
+  
+ 
+}
+.box{
+  display:grid;
+  grid-template-columns:15% 1fr ;
+  
+}
+
+#container{
+  display:inline-block;
+  width:min(50% 500px);
+  /* margin-inline:auto; */
+}
+#button-container{
+  display:inline-block;
+}
+
+body{
+  background-image:url(./R.jpg);
+  background-size: cover;
+  align-items: center;
+}
+p{
+  color:white;
+  font-size:50;
+  font-weight: bold;
+ 
+}

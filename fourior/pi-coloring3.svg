@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="765"
+   height="990"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="pi-coloring3.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="1025.2716"
+     inkscape:cy="722.60332"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-62.362183)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2.50279546;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 190.91581,666.88913 13.96159,1.0342 c 14.47876,-16.37472 20.16678,-64.8094 105.48767,-55.32931 -3.10256,207.52798 -94.11154,229.41838 -88.42343,271.99264 2.06839,24.13116 21.20094,38.95459 41.88477,39.81642 65.32649,-2.24075 62.39629,-90.31949 82.73541,-312.32616 l 84.28665,0 c -4.48151,78.25391 -16.71942,156.5078 -18.09829,233.21042 1.03415,51.02017 32.05997,78.25391 72.91052,78.59864 67.22249,2.24075 88.42349,-76.18552 88.42349,-109.62441 l -14.47874,0 c -1.37887,27.57847 -14.65104,47.40049 -42.91892,48.60705 -77.0474,1.03419 -34.64545,-135.47922 -34.12838,-249.7575 l 91.52604,0.51709 -0.5171,-58.43188 c -380.41753,-1.84275 -332.13177,-9.30068 -382.65127,111.6928 z"
+       id="path3857" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4126"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
+       transform="translate(18.363281,174.36218)"><flowRegion
+         id="flowRegion4128"><rect
+           id="rect4130"
+           width="667.50879"
+           height="478.00418"
+           x="33.941124"
+           y="42.476913"
+           style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" /></flowRegion><flowPara
+         id="flowPara4132"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans;-inkscape-font-specification:Adobe Helvetica Bold">Happy Pi Day!</flowPara></flowRoot>  </g>
+</svg>

@@ -1,0 +1,80 @@
+:root{
+  --mid-gray:rgb(8, 76, 97);
+	--transparent:rgba(0,0,0,0);
+  --carrot:rgb(234, 144, 16);
+}
+.mybutton{
+  background-color: var(--transparent);
+	color: var(--carrot);
+  display:flex;
+  margin:10px;
+  padding:10px 20px;
+  font-size: 14px;
+  font-family:Georgia;
+  transition: background-color 0.15s;
+  transition: color 0.15s; 
+  border-radius:8px;
+	text-transform: uppercase;
+}
+button:hover{
+	box-shadow: 1px 3px 10px;
+}
+#box{
+  margin-inline:auto;
+  margin:20px auto;
+}
+ p{
+  font-size:40px;
+  color:rgb(192,197,209);
+  font-family: Georgia;
+ }
+ #t2{
+  color:rgb(255,255,255);
+  font-size:30px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  /* margin-bottom:10px; */
+ }
+
+ input{
+  display:block;
+  font-size:20px;
+  background-color:var(--transparent);
+  color:var(--carrot);
+  border:double white 4px;
+  border-radius:10px;
+  width:10vw;
+  margin:5px;
+}
+
+ body{
+  background-image: url(wp8950669-math-minimalist-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+	padding: 0px;
+	margin: auto;
+ }
+ .contianer{
+  display:grid;
+  grid-template-columns:1fr 3fr;
+  background-color:rgba(10,20,20,0.5);
+ }
+ #buttonCont{
+  display:inline-block;
+  background-color: rgba(10,20,20,0.55);
+}
+.label{
+  background-color: var(--transparent);
+	color: var(--carrot);
+  display:inline-block;
+  margin:5px;
+  padding:10px;
+  font-size: 17px;
+  font-family:Georgia;
+  transition: background-color 0.15s;
+  transition: color 0.15s; 
+  border-radius:8px;
+ }
+ .slider{
+  display: inline-block;
+ }

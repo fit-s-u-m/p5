@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+		<title>julia set</title>
+    <script language="javascript" type="text/javascript" src="./p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="main.js"></script>
+  </head>
+
+	<body>
+		<div class="main">
+			<div class="container">
+				<div id="button_container">
+					<p>Complex numbers</p>
+					<p class="t1">Z<sub>n+1</sub> = Z<sup>2</sup><sub>n</sub> +C</p>
+					<p id="discription"></p>
+
+					<div class="preference">
+						<label for="z" class="other">Z</label>
+						<input name="z" id="z" size="10" class="other" value="0+0i">
+					</div>
+
+					<div class="preference">
+						<label for="c" class="other">C</label>
+						<input name="c" size="10" id="c" class="other" value="0+0i">
+					</div>
+
+				</div>
+				<div id="can-container"></div>
+			</div>
+		</div>
+	</body>
+</html>
